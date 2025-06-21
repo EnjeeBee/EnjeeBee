@@ -1,7 +1,175 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Professional ePortfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    nav {
+      background: #444;
+      text-align: center;
+      padding: 0.5rem 0;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-top: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #222;
+      margin-top: 0;
+    }
+
+    .artifact a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: #0056b3;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .artifact a:hover {
+      background-color: #00408a;
+    }
+
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: 1px solid #ccc;
+      margin-top: 1rem;
+      border-radius: 6px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      background: #333;
+      color: white;
+    }
+  </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <header>
+    <h1>My Professional ePortfolio</h1>
+    <p>Showcasing Skills, Growth, and Achievements</p>
+  </header>
+
+  <nav>
+    <a href="#self-assessment">Self-Assessment</a>
+    <a href="#code-review">Code Review</a>
+    <a href="#artifacts">Artifacts</a>
+    <a href="#narratives">Narratives</a>
+  </nav>
+
+  <section id="self-assessment">
+    <h2>Professional Self-Assessment</h2>
+    <p>
+      Welcome! This ePortfolio represents the culmination of my work in the Computer Science program.
+      Through the enhancement of selected artifacts, I have demonstrated skills in software design,
+      data structures, databases, and more. This section offers a holistic view of my professional development,
+      including quantifiable achievements and career-ready competencies.
+    </p>
+  </section>
+
+  <section id="code-review">
+    <h2>Code Review Video</h2>
+    <p>
+      Below is my code review video, where I walk through the structure, functionality, and enhancements made to one of my key artifacts.
+    </p>
+    <iframe src="https://www.youtube.com/embed/G7NB0t0CyOs" allowfullscreen></iframe>
+  </section>
+
+  <section id="artifacts">
+    <h2>Original and Enhanced Artifacts</h2>
+    <p>
+      These links point to the repositories for my project artifacts—both original and improved versions—
+      highlighting how each enhancement maps to specific course outcomes and professional skills.
+    </p>
+
+    <div class="artifact">
+      <h3>Original Artifacts</h3>
+      <a href="https://github.com/EnjeeBee/Rescue-Animals-Original-Artifact" target="_blank">
+        View Original Artifact 1 – Rescue Animals (Java)
+      </a><br><br>
+      <a href="https://github.com/EnjeeBee/Software-Test-Automations-QA" target="_blank">
+        View Original Artifact 2 – Software Test Automation
+      </a>
+    </div>
+
+    <div class="artifact" style="margin-top: 2rem;">
+      <h3>Enhanced Artifacts</h3>
+      <a href="https://github.com/EnjeeBee/Software-Engineering-and-Design-Enhancement" target="_blank">
+        View Enhanced Artifact 1 – Software Engineering & Design
+      </a><br><br>
+      <a href="https://github.com/EnjeeBee/Algorithms-and-Data-Structures-Enhancement" target="_blank">
+        View Enhanced Artifact 2 – Algorithms & Data Structures
+      </a><br><br>
+      <a href="https://github.com/EnjeeBee/Databases-Enhancement" target="_blank">
+        View Enhanced Artifact 3 – Databases
+      </a>
+    </div>
+  </section>
+
+  <section id="narratives">
+    <h2>Enhancement Narratives (Inline View)</h2>
+    <p>
+      Each narrative below is displayed as an embedded document you can scroll through directly
+      without downloading. These describe the enhancements, reasoning, and alignment with course outcomes.
+    </p>
+
+    <h3>Enhancement 1 – Software Engineering & Design</h3>
+    <iframe src="/mnt/data/Software Engineering and Design Enhancement Narrative.pdf">
+      This browser does not support PDFs. Please download the PDF to view it:
+      <a href="/mnt/data/Software Engineering and Design Enhancement Narrative.pdf" target="_blank">Download PDF</a>
+    </iframe>
+
+    <h3 style="margin-top:2rem;">Enhancement 2 – Algorithms & Data Structures</h3>
+    <iframe src="/mnt/data/Algorithms and Data Structures Enhancement Narrative.pdf">
+      This browser does not support PDFs. Please download the PDF to view it:
+      <a href="/mnt/data/Algorithms and Data Structures Enhancement Narrative.pdf" target="_blank">Download PDF</a>
+    </iframe>
+
+    <h3 style="margin-top:2rem;">Enhancement 3 – Databases</h3>
+    <iframe src="/mnt/data/Databases Enhancement Narrative.pdf">
+      This browser does not support PDFs. Please download the PDF to view it:
+      <a href="/mnt/data/Databases Enhancement Narrative.pdf" target="_blank">Download PDF</a>
+    </iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Nathaniel Burt | All rights reserved.</p>
+  </footer>
 </body>
 </html>
